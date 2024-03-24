@@ -1,0 +1,24 @@
+{
+    "name": "yonginsamgajinwoo101505krpanovr",
+    "version": "1.0.0",
+    "description": "",
+    "main": "tour.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "deploy": "gh-pages -d ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kabkee/samga.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kabkee/samga/issues"
+    },
+    "homepage": "https://kabkee.github.io/yongin-samga-jinwoo-101-505-Krpano-VR",
+    "devDependencies": {
+        "gh-pages": "^6.1.1"
+    }
+}
