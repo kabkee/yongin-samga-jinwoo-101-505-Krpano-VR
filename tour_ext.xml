@@ -43,7 +43,7 @@
     />
 
 
-    <layer keep='true' name='giveaway_title' type='text' html='"같이 드려요" 목록'
+    <layer keep='true' name='giveaway_title' type='text' html='"같이 드려요"(18) 목록'
         edge='righttop' align='righttop' x='12' y='12'
         bg='true' bgcolor='0xffffff' bgalpha='0.8'
         bgroundedge='8'
@@ -53,66 +53,86 @@
     >
         <layer name='giveaway_list' type='container' edge='righttop' align='righttop' x='0' y='40'
             bgroundedge='4'
-            width='150' height='0' bgborder='0' bgcolor='0xffffff' bgalpha='0.5'
+            width='150' bgborder='0' bgcolor='0xffffff' bgalpha='0.5'
             collapsed='false'
             onclick='if(layer[giveaway_list].collapsed,
                 tween(layer[giveaway_list].height, 0); set(layer[giveaway_list].collapsed, false);
             , 
-                tween(layer[giveaway_list].height, 350); set(layer[giveaway_list].collapsed, true);
+                tween(layer[giveaway_list].height, 475); set(layer[giveaway_list].collapsed, true);
             )'
             maskchildren='true'
         >
-            <layer style='text_giveaway_item' type='text' html='작은 안방 에어컨'
+            <layer style='text_giveaway_item' type='text' html='1. 작은 안방 에어컨'
                 idx='0' scene='scene_1'
                 ath='-20.240564464255442' atv='-4.29767719765152'
             />
-            <layer style='text_giveaway_item' type='text' html='붙박이 장농'
+            <layer style='text_giveaway_item' type='text' html='2. 붙박이 장농'
                 idx='1' scene='scene_1'
                 ath='173.5503022055393' atv='-3.4229097628649603'
             />
-            <layer style='text_giveaway_item' type='text' html='가스레인지'
+            <layer style='text_giveaway_item' type='text' html='3. 가스레인지'
                 idx='2' scene='scene_3'
                 ath='87.70715271168558' atv='10.27281070530535'
             />
-            <layer style='text_giveaway_item' type='text' html='식탁 &amp; 의자'
+            <layer style='text_giveaway_item' type='text' html='4. 식탁 &amp; 의자'
                 idx='3' scene='scene_3'
                 ath='79.86327429977683' atv='42.286408298355106'
             />
-            <layer style='text_giveaway_item' type='text' html='냉장고'
+            <layer style='text_giveaway_item' type='text' html='5. 냉장고'
                 idx='4' scene='scene_3'
                 ath='-100.39900598179304' atv='-0.031225693680228664'
             />
-            <layer style='text_giveaway_item' type='text' html='TV 다이'
+            <layer style='text_giveaway_item' type='text' html='6. TV 다이'
                 idx='5' scene='scene_5'
                 ath='177.76135342019705' atv='35.286893416465986'
             />
-            <layer style='text_giveaway_item' type='text' html='거실 스탠드 에어컨'
+            <layer style='text_giveaway_item' type='text' html='7. 거실 스탠드 에어컨'
                 idx='6' scene='scene_5'
                 ath='-46.67091522848261' atv='2.9353273625927705'
             />
-            <layer style='text_giveaway_item' type='text' html='쇼파'
+            <layer style='text_giveaway_item' type='text' html='8. 쇼파'
                 idx='7' scene='scene_5'
                 ath='-13.336128271242615' atv='19.470139193548423'
             />
-            <layer style='text_giveaway_item' type='text' html='쇼파 테이블'
+            <layer style='text_giveaway_item' type='text' html='9. 쇼파 테이블'
                 idx='8' scene='scene_5'
                 ath='-21.228475348669633' atv='59.67953013985366'
             />
-            <layer style='text_giveaway_item' type='text' html='옷장'
+            <layer style='text_giveaway_item' type='text' html='10. 옷장'
                 idx='9' scene='scene_6'
                 ath='-96.90722143752794' atv='0'
             />
-            <layer style='text_giveaway_item' type='text' html='책장'
+            <layer style='text_giveaway_item' type='text' html='11. 책장'
                 idx='10' scene='scene_9'
                 ath='-66.65358470414367' atv='8.898554918017952'
             />
-            <layer style='text_giveaway_item' type='text' html='세탁기'
+            <layer style='text_giveaway_item' type='text' html='12. 세탁기'
                 idx='11' scene='scene_10'
                 ath='0.03331491122992247' atv='12.70919887346942'
             />
-            <layer style='text_giveaway_item' type='text' html='작은 쇼파'
+            <layer style='text_giveaway_item' type='text' html='13. 작은 쇼파'
                 idx='12' scene='scene_11'
                 ath='118.13977668332939' atv='34.973920167068336'
+            />
+            <layer style='text_giveaway_item' type='text' html='14. 악세사리장'
+                idx='13' scene='scene_6'
+                ath='-33.41243648603654' atv='36.07639923463314'
+            />
+            <layer style='text_giveaway_item' type='text' html='15. 서랍장'
+                idx='14' scene='scene_6'
+                ath='38.7126316149762' atv='35.40833499985534'
+            />
+            <layer style='text_giveaway_item' type='text' html='16. 비데'
+                idx='15' scene='scene_8'
+                ath='159.56040724249738' atv='53.73668542086502'
+            />
+            <layer style='text_giveaway_item' type='text' html='17. 렉'
+                idx='16' scene='scene_11'
+                ath='-91.73995882481097' atv='-1.9727516172682555'
+            />
+            <layer style='text_giveaway_item' type='text' html='18. 플라스틱 서랍장'
+                idx='17' scene='scene_11'
+                ath='97.3257644504938' atv='2.7333360476654596'
             />
         </layer>
     </layer>
