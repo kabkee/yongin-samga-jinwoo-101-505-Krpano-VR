@@ -92,9 +92,13 @@
         <hotspot name="spot1" style="skin_hotspotstyle" ath="128.257" atv="31.590"
             linkedscene="scene_2" linkedscene_lookat="5.74,0.85,120.0" linkedscene_hoffset="-96.82"
             use3dtransition="true" />
+        <!-- <hotspot name="spot2" style="skin_hotspotstyle" ath="71.965" atv="34.539"
+        linkedscene="scene_4" linkedscene_lookat="-27.45,5.53,120.0" linkedscene_hoffset="264.98"
+        use3dtransition="true" /> -->
         <hotspot name="spot2" style="skin_hotspotstyle" ath="71.965" atv="34.539"
-            linkedscene="scene_4" linkedscene_lookat="-27.45,5.53,120.0"
-            linkedscene_hoffset="264.98" use3dtransition="true" />
+            linkedscene="scene_4"
+            linkedscene_hoffset="calc:-30.094387780294813 - 71.965"
+            use3dtransition="true" />
 
 
         <hotspot style='text_info'
@@ -287,6 +291,14 @@
             ath='-60' atv='0'
             html='옷장 같이 드려요[br/]2017년도 구매'
         />
+        <hotspot style='text_info'
+            ath='-33.44902944209207' atv='35.8285724353553'
+            html='악세사리장 같이 드려요[br/]2017년도 구매'
+        />
+        <hotspot style='text_info'
+            ath='38.7126316149762' atv='35.40833499985534'
+            html='서랍장 같이 드려요[br/]2021년도 구매'
+        />
     </scene>
 
     <scene name="scene_7" title="신발장" onstart="" havevrimage.mobilevr="false"
@@ -337,6 +349,11 @@
         <image if="webvr.isenabled OR device.mobilevr">
             <cube url="panos/8.tiles/vr/pano_%s.jpg" />
         </image>
+
+        <hotspot style='text_info'
+            ath='159.56040724249738' atv='53.73668542086502'
+            html='비데 같이 드려요[br/]오래된 제품'
+        />
 
         <hotspot name="spot2" style="skin_hotspotstyle" ath="-174.419" atv="43.756"
             linkedscene="scene_7" linkedscene_hoffset="445.99" use3dtransition="true" />
@@ -427,6 +444,14 @@
         <hotspot style='text_info'
             ath='118.13977668332939' atv='34.973920167068336'
             html='작은 쇼파 같이 드려요[br/]2014년도 구매'
+        />
+        <hotspot style='text_info'
+            ath='-91.73995882481097' atv='-1.9727516172682555'
+            html='렉 같이 드려요[br/]구매일자 미상 2018년 이후'
+        />
+        <hotspot style='text_info'
+            ath='97.3257644504938' atv='2.7333360476654596'
+            html='플라스틱 4칸 서랍장[br/]구매일자 미상, 오래됨'
         />
     </scene>
 
